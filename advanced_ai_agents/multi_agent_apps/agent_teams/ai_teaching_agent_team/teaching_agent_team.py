@@ -55,7 +55,7 @@ professor_agent = Agent(
     tools=[google_docs_tool],
     instructions=[
         "Create a comprehensive knowledge base that covers fundamental concepts, advanced topics, and current developments of the given topic.",
-        "Exlain the topic from first principles first. Include key terminology, core principles, and practical applications and make it as a detailed report that anyone who's starting out can read and get maximum value out of it.",
+        "Explain the topic from first principles first. Include key terminology, core principles, and practical applications and make it as a detailed report that anyone who's starting out can read and get maximum value out of it.",
         "Make sure it is formatted in a way that is easy to read and understand. DONT FORGET TO CREATE THE GOOGLE DOCUMENT.",
         "Open a new Google Doc and write down the response of the agent neatly with great formatting and structure in it. **Include the Google Doc link in your response.**",
     ],
